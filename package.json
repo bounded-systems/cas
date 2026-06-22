@@ -4,7 +4,10 @@
   "description": "Content-addressable storage substrate: bytes addressed by their SHA-256 digest, with a storage-agnostic blob-store port",
   "bounded": {
     "tagline": "Content-addressable storage substrate: bytes addressed by their SHA-256 digest, with a storage-agnostic blob-store port",
-    "kind": "room"
+    "kind": "room",
+    "facet": "noun",
+    "role": "substrate",
+    "domain": "content-addressing"
   },
   "license": "MIT",
   "type": "module",
