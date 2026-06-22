@@ -13,7 +13,10 @@ import type { Digest } from "./digest.ts";
  * lives in the digest, not in which actor produced the bytes).
  */
 export interface BlobStore {
+  /** Store `bytes` and return their content address ({@link Digest}). Idempotent: storing identical bytes yields the same digest. */
   put(bytes: Uint8Array): Promise<Digest>;
+  /** Fetch the bytes at `digest`. Implementations re-hash and reject a corrupt blob; rejects if the address is absent. */
   get(digest: Digest): Promise<Uint8Array>;
+  /** Whether a blob is present at `digest`, without fetching its bytes. */
   has(digest: Digest): Promise<boolean>;
 }
