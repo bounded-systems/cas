@@ -1,0 +1,10 @@
+{
+  "name": {
+    "type": "name",
+    "value": "cas"
+  },
+  "description": {
+    "type": "meta",
+    "value": "Content-addressable storage substrate: bytes addressed by their SHA-256 digest, with a storage-agnostic blob-store port"
+  }
+}
