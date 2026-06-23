@@ -5,6 +5,10 @@
   },
   "description": {
     "type": "meta",
-    "value": "Content-addressable storage substrate: bytes addressed by their SHA-256 digest, with a storage-agnostic blob-store port"
+    "value": "Content-addressable storage — the substrate.  The lowest layer in the provenance stack: bytes addressed by their SHA-256 digest.  Higher layers (a derivation/provenance graph, content-addressed surface reads) build on this; none owns it."
+  },
+  "keywords": {
+    "type": "body",
+    "value": "CONTENT-ADDRESSABLE · CAS · SHA256 · DIGEST · BLOB-STORE · PROVENANCE · SEAM"
   }
 }
