@@ -1,0 +1,25 @@
+package.json
+  s_8bfe0e8de6557c::t_6de0abb62d9344 52
+.npmrc
+  s_8bfe0e8de6557c::t_da5384edb9d043 1
+src/__tests__/extractability.test.ts
+  s_8bfe0e8de6557c::t_968b4df60ee274 1-2,5,7,9-18
+bun.lock
+  s_8bfe0e8de6557c::t_99ddd35ede605a 8,15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "82704c5e330a50cba9a2fd0b45c0ae655bfdf695",
+  "prompts": {},
+  "sessions": {
+    "s_8bfe0e8de6557c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "159cecef-b114-4932-b219-6b198cbf9abd",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Robert DeLanghe <1240090+bdelanghe@users.noreply.github.com>"
+    }
+  }
+}
