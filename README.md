@@ -57,3 +57,5 @@ const present: boolean = await store.has(addr);
 ## License
 
 [MIT](./LICENSE) © Bounded Systems
+
+<!-- required-baseline enforcement probe -->
